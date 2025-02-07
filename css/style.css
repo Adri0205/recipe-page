@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: Outfit-Variable;
+    color: #5F564D;
 
 }
 
@@ -25,7 +26,14 @@ body {
     background-color: white;
     padding: 40px;
     border-radius: 24px;
+}
 
+div {
+    margin: 40px 0px
+}
+
+div h2 p {
+    margin: 24px;
 }
 
 img {
@@ -48,4 +56,57 @@ h1 {
 h3 {
     margin-top: 0px;
     margin-bottom: 16px;
+    color: #7A284E;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: Outfit-Variable;
+}
+
+h2 {
+    color: #854632;
+    font-family: Outfit-Variable;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+span {
+    color: #5F564D;
+    font-weight: bold;
+}
+
+div ul li::marker {
+    color: #854632;
+}
+
+div ol li::marker {
+    color: #854632;
+}
+
+hr {
+    margin: 32px 0px;
+    border: 1px solid #E3DDD7;
+}
+
+.table-container {
+    display: grid;
+}
+
+.cell {
+    width: 240px;
+}
+
+td {
+    padding: 12px 32px;
+    border-bottom: solid 1px #E3DDD7;
+}
+
+.table-color {
+    color: #854632;
+    font-weight: bold;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 15px;
+
 }
